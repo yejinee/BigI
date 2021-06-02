@@ -48,7 +48,7 @@
                 <form id="contents" name="contents" method="post" action="{% url 'post:resultpage' %}">
                     {% csrf_token %}
                     <div class="form-group">
-                      urltext: <input name='urltext' type="text" class="form-control"  placeholder="Give Link">
+                      <input name='urltext' type="text" class="form-control"  placeholder="Give Link">
                       <button type="button" class="btn btn-primary mb-2 btn btn-default btn-lg" onclick="send();">Submit</button>
                     </div>
                     

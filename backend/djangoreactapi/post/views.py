@@ -42,7 +42,7 @@ def get_post(request):
 def word_cloud(book):
     # 그래프 출력 되는지
     spwords=set(STOPWORDS) # 제외할 단어
-    wc = WordCloud(stopwords=spwords,background_color="black", contour_width=2,width=1500, colormap='Set2', height=750,max_words=30, max_font_size=256,random_state=42)
+    wc = WordCloud(stopwords=spwords,background_color="black", contour_width=2,width=1000, colormap='Set2', height=750,max_words=30, max_font_size=170,random_state=42)
     wc.generate(book)
     plt.imshow(wc, interpolation="bilinear")        
     plt.axis('off')
