@@ -18,39 +18,27 @@
 ```
 pip install django
 ```
-#### 2. Directory 지정 (Terminal)
+#### 2. Module 설치 (Terminal)
 ```
-mkdir backend
-cd backend
-django-admin startproject djangoreactapi . 
+pip install wordcloud
 ```
 
-#### 3. API로 호출 시킬 APP 만들기 (Terminal)
-- manage.py가 있는 폴더에서 실행
+### Error!
+- seaborn & scipy module이 서로 충돌하기 때문!
+- module 지웠다 다시 깔아줄 것 
 ```
-python manage.py startapp post
+pip uninstall scipy
+pip uninstall seaborn
 ```
-
-#### 4.Migrate 실행 (Terminal)
 ```
-python manage.py migrate
-```
-
-#### 5.settings.py에 post 추가
-```
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'post',
-]
+pip install scipy
+pip install seaborn
 ```
 
-#### 6. 실행 (Terminal)
+#### 3. 실행 (Terminal)
+- manage.py가 있는 폴더에서 명령어 실행하기
 ```
 python manage.py runserver
 ```
+
 
