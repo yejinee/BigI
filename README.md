@@ -10,6 +10,7 @@
 ### 실행 
 #### 0. Version Information
 - python : 3.7.4
+- conda 4.10.1
 - vs Code로 개발 진행 
 <br></br>
 
