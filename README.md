@@ -5,7 +5,16 @@
 ### 서비스 개요
 - 머신러닝을 통해 텍스트의 독해 필요 능력 수준 판독 알고리즘 개발 
 - 텍스트 수준 판독 서비스 웹 서비스 제작
+
+#### 서비스 설명 PPT 
+https://www.miricanvas.com/v/1ff2aj 
+
 <br></br>
+
+### File 설명
+- Backend : web 개발 폴더
+- TexMining : train, text데이터 및 텍스트 전처리 & 모델링 코드 
+
 
 ### 실행 
 #### 0. Version Information
